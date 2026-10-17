@@ -107,10 +107,10 @@
     // Config: Apna Render server host yahan badlein
     // Default testing ke liye agar null chhodte hain to PeerJS cloud chalega
     const SIGNALING_CONFIG = {
-      // host: 'syncpals-server.onrender.com', // Deploy karne ke baad un-comment karein
-      // port: 443,
-      // path: '/syncpals',
-      // secure: true,
+      host: 'syncpals-signaling.onrender.com', // Deploy karne ke baad un-comment karein
+      port: 443,
+      path: '/syncpals',
+      secure: true,
       config: {
         iceServers: [
           { urls: 'stun:stun.l.google.com:19302' },
